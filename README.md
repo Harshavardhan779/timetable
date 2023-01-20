@@ -122,3 +122,6 @@ Execute the program
 # OUPUT
 ![MODEL](/logo.png)
 ![MODEL](/WhatsApp%20Image%202023-01-11%20at%2022.13.16.jpeg)
+
+# RESULT:
+The timetable is created successfully.
