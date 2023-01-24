@@ -18,110 +18,102 @@ Execute the program
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>time table</title>
-    <html>
-        <head>
-        <title>TIME TABLE</title>
-        </head>
-        
-        <body>
-           <table border = "1" cellspacing="3" bordercolor="red" >
-             <tr>
-                <th colspan ="10">TIME TABLE</th>
-             </tr>
-             <tr>
-             <th colspan="4" > Reference Number : 22007173</th><th colspan="6">Name : HARSHAVARDHAN</th>
-             </tr>
-             <tr>
-                <th>DAYS</th>
-                <th>8:00-9:00</th>
-                <th>9:00-10:00</th>
-                <th>10:00-11:00</th>
-                <th>11:00-12:00</th>
-                <th>12:00-1:00</th>
-                <th>1:00-2:00</th>
-                <th>2:00-3:00</th>
-                <th>3:00-4:30</th>
-             </tr>
-             <tr>
-                <th>Monday</th>
-                <th>19AI414/karthi Govindaraju</th>
-                <th>19AI414/karthi Govindaraju</th>
-                <th>19EN612/Varghese Y</th>
-                <th>19EN612/Varghese Y</th>
-                <th>LUNCH-BREAK</th>
-                <th>--</th>
-                <th>--</th>
-                <th>19EN101/Anne Dorthy</th>
-              </tr>
-              <tr>
-                <th>Tuesday</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19MA220/Jaba Jasphin E.T</th>
-                <th>19MA220/Jaba Jasphin E.T</th>
-                <th>LUNCH-BREAK</th>
-                <th></th>
-                <th></th>
-                <th>19CY205/Mettilda M</th>
-              </tr>
-              <tr>
-                <th>Wednesday</th>
-                <th>--</th>
-                <th>--</th>
-                <th>19MA221/Jaba Jasphin E.T</th>
-                <th>19MA221/Jaba Jasphin E.T</th>
-                <th>LUNCH-BREAK</th>
-                <th>--</th>
-                <th>--</th>
-                <th>19EN612/Varghese Y</th>
-                
-              </tr>
-              <tr>
-                <th>Thursday</th>
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-                <th>LUNCH-BREAK</th>
-                <th>19CY205/Mettilda M</th>
-                <th>19CY205/Mettilda M</th>
-                <th>19MA220/Jaba Jasphin E.T</th>
-              </tr>
-              <tr>
-                <th>Friday</th>
-                <th>19EY701/Saranya V</th>
-                <th>19EY701/Saranya V</th>
-                <th>19AI301/Jaba Jasphin E.T</th>
-                <th>19AI301/Jaba Jasphin E.T</th>
-                <th>LUNCH-BREAK</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19AI414/Karthi Govindaraju</th>
-                <th>19EN101/Anne Dorthy</th>
-                </tr>
-            </table>
-                <ol>
-                  <center>
-                    <LI>19AI414- FUNDAMENTAL OF WEB APPLICATION</LI>
-                    <LI>19MA220 - MATHEMATICS FOR ARTIFICAL INTELLIGENCE</LI>
-                    <LI>19MA221 - LINEAR ALGEBRA LABORATORY</LI>
-                    <LI>19CY205 - PRINCIPLES OF CHEMISTRY IN ENGINEERING</LI>
-                    <LI>19AI301 - PYTHON PROGRAMMING</LI>
-                    <LI>19EN101 - COMMUNICATIVE ENGLISH</LI>
-                    <LI>19EY701 - SOFT SKILLS</LI>
-                    <LI>19EN612 - GERMAN BASICS</LI>
-                  </center>
-               
-                </ol>
-  
+<title>Slot Timetable</title>
+</head>
+<body>
+<center>
+<img src="/static/images/logo.png" height="100" width="540">
+</center>
+<br>
+<table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
+<caption><b>SLOT TIME TABLE - HARSHA (22007173)</b></caption>
+<tr align="center">
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="yellow">Monday</th>
+<th bgcolor="yellow">Tuesday</th>
+<th bgcolor="yellow">Wednesday</th>
+<th bgcolor="yellow">Thursday</th>
+<th bgcolor="yellow">Friday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td colspan="3">FREE SLOT</td>
+<td>PHY</td>
+<td>CHE</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>GER</td>
+<td> FREE SLOT </td>
+<td>FWAD</td>
+<td>FWAD</td>
+<td>PHY</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="5" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td colspan="2"> FREE SLOT </td>
+<td>MAT</td>
+<td>MAT</td>
+<td>SS</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td colspan="2"> FREE SLOT </td>
+<td>GER</td>
+<td>CHE</td>
+<td>FWAD</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="4" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
+<td>Fundamentals of Web Application Development (FWAD)</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19EN612</td>
+<td>German Basic (GER)</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19PH206</td>
+<td>Physics for Information Technology (PHY)</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19CY205</td>
+<td>Principles of Chemistry in Engineering (CHE)</td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19MA201</td>
+<td>Calculus and Matrix Algebra (MAT)</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19EY701</td>
+<td>Soft Skills (SS)</td>
+</tr>
+</table>
+</body>
+</html>
 ```
 
 # OUPUT
-![MODEL](/logo.png)
-![MODEL](/WhatsApp%20Image%202023-01-11%20at%2022.13.16.jpeg)
+![MODEL](/output1.png)
+# HTML VALIDATOR
+![HTML](/validator%201.png)
 
 # RESULT:
 The timetable is created successfully.
